@@ -31,11 +31,17 @@
   background-image: url("watermelon.jpg");
   background-size: 300px 300px;
 }
+#a4 {
+  background-image: url("Skydiving.jpeg");
+  background-size: 300px 600px;
+  height: 600px;
+}
 
 .column {
   float: left;
   padding: 30px;
 }
+
 .card {
   margin-bottom: 10px;
 }
@@ -69,33 +75,32 @@
 .bd-example {
   height: 500px;
 }
-.fa {
+.fab {
   padding: 20px;
   font-size: 30px;
 
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 0px 23px;
   border-radius: 50%;
 }
-.fa-facebook {
+.fab-facebook {
   background: #3b5998;
   color: white;
-  margin-left: 100px;
 }
-.fa-twitter {
+.fab-twitter {
   background: #55acee;
   color: white;
 }
-.fa-youtube {
+.fab-youtube {
   background: #bb0000;
   color: white;
 }
-.fa-instagram {
+.fab-instagram {
   background: #125688;
   color: white;
 }
-.fa:hover {
+.fab:hover {
   opacity: 0.7;
 }
 #social {
@@ -116,4 +121,9 @@ h2 {
   text-align: center;
   color: aliceblue;
   font-family: "Calistoga", cursive;
+}
+#pic1 {
+  width: 35%;
+
+  margin: 0;
 }
